@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Ubuntu:ital,wght@0,300;0,700;1,400&display=swap');
+
+*{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body{
+ background-color: #161717;
+}
+
+/* Contenedor principal */
+.container {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    width: 450px;
+}
+
+.titulo{
+    color: white;
+}
+
+/* botones  */
+    /* Google */
+.buttons {
+    align-self: center;
+    display: flex;
+    gap: 20px;
+}
+
+.btnGoogle {
+    background-color: #1B73E9;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    align-self: flex-start;
+}
+
+.btnGoogle:hover {
+    opacity: 0.75;
+    cursor: pointer;
+}
+
+.btnGoogle picture {
+    width: 35px;
+    background-color: #F2F2F2;
+    height: 35px;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btnGoogle picture img {
+    width: 75%;
+}
+
+.btnGoogle span {
+    color: white;
+    padding: 15px;
+}
+
+    /* twitter */
+.btnTwitter {
+    color: #bbb;
+    background-color: #eee;
+    border: none;
+    width: 40px;
+    border-radius: 5px; 
+    cursor: pointer;
+}
+
+.btnTwitter picture img {
+    width: 60%;
+}
+
+.btnTwitter:hover {
+    background-color: #ddd;
+}
+
+/* Separador */
+.separator {
+    display: flex;
+    width: 100%;
+    gap: 15px;
+}
+
+.separator hr {
+    flex-grow: 1;
+    border: none;
+    border-top: 1px solid #ccc;
+}
+
+.separator span{
+    color: #8b8b8b;
+}
+
+.sectionInputs {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+}
+
+/* Formulario */
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 30px;
+}
+
+label {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+label span {
+    font-weight: 700;
+    color: white;
+}
+
+.sectionInputs label input{
+    width: 80%;
+    background-color: #212121;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 14pt;
+}
+
+label input{
+    width: 90%;
+    background-color: #212121;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 14pt;
+    transition: background-color 0.2s, border 0.2s, box-shadow 0.2s;
+}
+
+label input:hover{
+    background-color: #454045;
+    border: solid 1px #f3f3f4;
+    box-shadow: 0 0 4px #aa549cbd;
+}
+
+label input:focus{
+    background-color: white;
+    border: solid 1px #f3f3f4;
+    box-shadow: 0 0 5px #f004c5bd;
+}
+
+/* Checkbox */
+
+.checkbox{
+    display:flex;
+    flex-direction: row;
+}
+
+.checkbox input[type="checkbox"]{
+    width: 16px;
+}
+
+.checkbox span{
+    font-weight: 300;
+}
+
+.btnSubmit{
+    background-color: #EB4C8A;
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    font-size: 14pt;
+    text-align: center;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btnSubmit:hover {
+    opacity: 0.75;
+}
