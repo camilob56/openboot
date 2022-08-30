@@ -1,0 +1,59 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.barraIzquierda {
+    display: flex;
+    width: 120px;
+    background-color: #14213d;
+    flex-direction: column;
+    padding: 15px;
+    text-align: center;
+    align-items: center;
+    
+}
+
+.item {
+    display: flex;
+    margin-top: 15px;
+    width: 100px;
+    height: 100px;
+    color: white;
+    background-color: blue;
+    align-items: center;
+    justify-content: center;
+}
+
+.barraDerecha {
+    width: 40%;
+    height: 100px;
+    background-color: #2a9d8f;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+@media (max-width: 640px){
+    
+    .container {
+        justify-content: end;
+    }
+
+    .barraIzquierda {
+        flex-direction: initial;
+        position: absolute;
+        top: 460px;
+        left: 20vw;
+        width: 50vw;
+        justify-content: center;
+    }
+
+    .item {
+        margin-top: 0;
+        margin-left: 10px;
+    }
+
+}
