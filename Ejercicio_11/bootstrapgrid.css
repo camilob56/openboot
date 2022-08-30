@@ -1,0 +1,28 @@
+
+.row div {
+    margin: 0.25rem;
+}
+
+.col {
+ background-color: darkcyan;
+}
+
+.col-sm {
+    background-color: red;
+}
+
+.col-md {
+    background-color: darkgoldenrod;
+}
+
+.col-lg {
+    background-color: blueviolet;
+}
+
+.rem {
+    background-color: violet;
+}
+
+.em {
+    background-color: greenyellow;
+}
